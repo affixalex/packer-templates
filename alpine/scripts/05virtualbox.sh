@@ -5,6 +5,7 @@ apk add virtualbox-additions-grsec
 
 echo vboxpci >> /etc/modules
 echo vboxdrv >> /etc/modules
+echo vboxvfs >> /etc/modules
 echo vboxsf >> /etc/modules
 echo vboxnetflt >> /etc/modules
 
