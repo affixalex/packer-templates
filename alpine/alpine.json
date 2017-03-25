@@ -1,7 +1,7 @@
 {
   "description": "Build base Alpine Linux x86_64",
   "push": {
-    "name": "hypoalex/alpine34",
+    "name": "hypoalex/alpine",
     "vcs": true
   },
   "variables": {
@@ -31,14 +31,14 @@
       "type": "virtualbox-iso",
       "virtualbox_version_file": ".vbox_version",
 
-      "guest_additions_mode": "disable",
+      "guest_additions_mode": "attach",
       "guest_os_type": "Linux26_64",
       "headless": false,
       "disk_size": 10240,
       "http_directory": "http",
 
-      "iso_url": "http://dl-cdn.alpinelinux.org/alpine/v3.4/releases/x86_64/alpine-3.4.2-x86_64.iso",
-      "iso_checksum": "379392ec2cf54ce5755575090f5ea0d2261d7c427e37b4c0244ecea1cf91819b",
+      "iso_url": "https://nl.alpinelinux.org/alpine/v3.5/releases/x86_64/alpine-standard-3.5.2-x86_64.iso",
+      "iso_checksum": "c955c26431c877527024d94d1ba6495b87fddac186df16c404f7b15ea61f443b",
       "iso_checksum_type": "sha256",
 
       "communicator": "ssh",
@@ -91,7 +91,7 @@
       "artifact_type": "vagrant.box",
       "metadata": {
         "provider": "virtualbox",
-        "description": "[Alpine Linux](http://alpinelinux.org) v3.4.0",
+        "description": "[Alpine Linux](http://alpinelinux.org) v3.5.2",
         "version": "1.0.0"
       }
     }]

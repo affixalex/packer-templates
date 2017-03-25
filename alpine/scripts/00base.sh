@@ -1,8 +1,8 @@
 set -ux
 
 cat << EOF > /etc/apk/repositories
-http://dl-2.alpinelinux.org/alpine/v3.4/main
-http://dl-2.alpinelinux.org/alpine/v3.4/community
+http://dl-2.alpinelinux.org/alpine/v3.5/main
+http://dl-2.alpinelinux.org/alpine/v3.5/community
 http://dl-2.alpinelinux.org/alpine/edge/main
 http://dl-2.alpinelinux.org/alpine/edge/community
 http://dl-2.alpinelinux.org/alpine/edge/testing
